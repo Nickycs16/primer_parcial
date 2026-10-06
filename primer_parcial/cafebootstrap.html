@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="px-3 py-2 text-bg-crema border-bottom">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <img src="src/cafe/logocafe.png" alt="Logo" width="100"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <li> <a href="#" class="nav-link text-secondary"> <svg class="bi d-block mx-auto mb-1"
+                                    width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#home"></use>
+                                </svg>
+                                <font dir="auto" style="vertical-align: inherit;">
+                                    <font dir="auto" style="vertical-align: inherit;">
+                                        Inicio
+                                    </font>
+                                </font>
+                            </a> </li>
+                        <li> <a href="#" class="nav-link text-black"> <svg class="bi d-block mx-auto mb-1" width="24"
+                                    height="24" aria-hidden="true">
+                                </svg>
+                                <font dir="auto" style="vertical-align: inherit;">
+                                    <font dir="auto" style="vertical-align: inherit;">
+                                        Promociones
+                                    </font>
+                                </font>
+                            </a> </li>
+                        <li> <a href="#" class="nav-link text-black"> <svg class="bi d-block mx-auto mb-1" width="24"
+                                    height="24" aria-hidden="true">
+                                </svg>
+                                <font dir="auto" style="vertical-align: inherit;">
+                                    <font dir="auto" style="vertical-align: inherit;">
+                                        Productos
+                                    </font>
+                                </font>
+                            </a> </li>
+                        <li> <a href="#" class="nav-link text-black"> <svg class="bi d-block mx-auto mb-1" width="24"
+                                    height="24" aria-hidden="true">
+                                </svg>
+                                <font dir="auto" style="vertical-align: inherit;">
+                                    <font dir="auto" style="vertical-align: inherit;">
+                                        Carrito
+                                    </font>
+                                </font>
+                            </a> </li>
+                        <li> <a href="#" class="nav-link text-black"> <svg class="bi d-block mx-auto mb-1" width="24"
+                                    height="24" aria-hidden="true">
+                                    <use xlink:href="#people-circle"></use>
+                                </svg>
+                                <font dir="auto" style="vertical-align: inherit;">
+                                    <font dir="auto" style="vertical-align: inherit;">
+                                        Favoritos
+                                    </font>
+                                </font>
+                            </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search"> <input type="search"
+                        class="form-control" placeholder="Buscar..." aria-label="Buscar"> </form>
+                <div class="text-end"> <button type="button" class="btn btn-light text-dark me-2">
+                        <font dir="auto" style="vertical-align: inherit;">
+                            <font dir="auto" style="vertical-align: inherit;">Acceso</font>
+                        </font>
+                    </button> <button type="button" class="btn btn-primary">
+                        <font dir="auto" style="vertical-align: inherit;">
+                            <font dir="auto" style="vertical-align: inherit;">Inscribirse</font>
+                        </font>
+                    </button> </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
+                    class="active" aria-label="Diapositiva 1" aria-current="true"></button> <button type="button"
+                    data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2" class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Diapositiva 3"
+                    class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="src/cafe/ricospostres.jpg" class="d-block w-100" alt="Prueba nuestros ricos postres">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="src/cafe/martes.jpg" class="d-block w-100" alt="Prueba nuestros ricos postres">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="src/cafe/qrdescuento.jpg" class="d-block w-100" alt="Prueba nuestros ricos postres">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">
+                    <font dir="auto" style="vertical-align: inherit;">
+                        <font dir="auto" style="vertical-align: inherit;">Anterior</font>
+                    </font>
+                </span> </button> <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span
+                    class="visually-hidden">
+                    <font dir="auto" style="vertical-align: inherit;">
+                        <font dir="auto" style="vertical-align: inherit;">Próximo</font>
+                    </font>
+                </span> </button>
+        </div>
+
+        <div class="container mt-3">
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/iced_coffee.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">ICED COFFEE</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 55.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/americano.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">AMERICANO</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 78.99</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/chocolate.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">CHOCOLATE</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 60.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/cappuccino.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">CAPPUCCINO</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 99.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/chai.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">CHAI</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 55.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/latte.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">LATTE</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 60.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/brownie.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">BROWNIE</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 75.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/cheesecake.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">CHEESECAKE</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 120.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/croissant.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">CROISSANT</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 210.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/cupcake.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">CUPCAKE</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 40.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/galleta.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">GALLETA</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 15.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/parfait.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">PARFAIT</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 98.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/sandwich_jamon.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">SANDWINCH DE JAMON</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 65.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/sandwich_pollo.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">SANDWINCH DE POLLO</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 80.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <title>MENU</title>
+                        <img src="src/cafe/waffle.jpg">
+                        <div class="card-body">
+                            <stext class="text-body-secondary">WAFFLE</text>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <button type="button"
+                                            class="btn btn-sm btn-outline-secondary">Agregar</button> <button
+                                            type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                                    </div> <small class="text-body-secondary">L 180.00</small>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top text-bg-crema">
+        <div class="col-md-4 d-flex align-items-center"> <a href="/"
+                class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Oreja"> <svg
+                    class="bi" width="30" height="24" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">
+                <font dir="auto" style="vertical-align: inherit;">
+                    <font dir="auto" style="vertical-align: inherit;">Todos los derechos reservados</font>
+                </font>
+            </span> </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24"
+                        height="24" aria-hidden="true">
+                        <use xlink:href="#instagram"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24"
+                        height="24">
+                        <use xlink:href="#facebook"></use>
+                    </svg></a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

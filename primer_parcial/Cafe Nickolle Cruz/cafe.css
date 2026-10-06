@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+}
+@media (min-width: 768px) {
+    
+}
+
+.card {
+    font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+    .card {
+        font-size: 1rem;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .card-body .d-flex {
+        flex-direction: column;
+        align-items: stretch !important;
+        gap: 8px;
+    }
+
+    .card-body .btn-group {
+        width: 100%;
+    }
+    .card .btn {
+        font-size: 0.7rem;
+    }
+    .card-body .btn {
+        flex: 1;
+    }
+
+    .card-body small {
+        text-align: center;
+    }
+}
+.text-bg-crema {
+    background-color: #f5e6d3;
+}
+.carousel-item img {
+    width: 100%;
+}
