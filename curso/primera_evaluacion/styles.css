@@ -1,0 +1,13 @@
+.producto-card {
+  border-radius: 12px;
+  border-top: 4px solid #8b5e3c;
+}
+
+.producto-card .card-title {
+  color: #5c3924;
+}
+
+.producto-card .btn {
+  background-color: #8b5e3c;
+  border-color: #8b5e3c;
+}
